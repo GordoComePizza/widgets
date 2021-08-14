@@ -147,10 +147,70 @@
     margin-top: 3px;
 }
 
-.backgroundsvg{
+.backgroundsvg-follower{
     position:absolute;
-    background: url(https://s3.amazonaws.com/cdn.streamelements.com/static/event-list/patterns/{{theme}}.svg);
-    background-size: 10px;
+    background: url('{followerBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-cheer{
+    position:absolute;
+    background: url('{cheerBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-host{
+    position:absolute;
+    background: url('{hostBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-raid{
+    position:absolute;
+    background: url('{raidBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-subscriber{
+    position:absolute;
+    background: url('{subBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-tip{
+    position:absolute;
+    background: url('{tipBg}');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    opacity:calc({{backgroundOpacity}}/100);
+    z-index:0;
+}
+
+.backgroundsvg-redemption{
+    position:absolute;
+    background: url('{redemptionBg}');
+    background-size: cover;
     width:100%;
     height:100%;
     opacity:calc({{backgroundOpacity}}/100);

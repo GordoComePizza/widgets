@@ -36,21 +36,6 @@
     "max": 999,
     "group": "Main"
   },
-  "theme": {
-    "type": "dropdown",
-    "label": "Background pattern:",
-    "value": "plain",
-    "options": {
-      "blank": "plain",
-      "texture": "texture",
-      "diagonal-stripes": "Diagonal stripes",
-      "hexagons": "Hexagons",
-      "i-like-food": "I like food",
-      "tiny-checkers": "Tiny checkers",
-      "circuit-board": "Circuit board"
-    },
-    "group": "Main"
-  },
   "backgroundOpacity": {
     "type": "number",
     "min": 0,
@@ -661,6 +646,12 @@
     "value": "https://cdn.streamelements.com/static/custom-event-list/follower.svg",
     "group": "Followers"
   },
+  "followerBg": {
+    "type": "image-input",
+    "label": "Follower background",
+    "value": null,
+    "group": "Followers"
+  },
   "redemption-include": {
     "type": "dropdown",
     "label": "Display redemptions:",
@@ -681,6 +672,12 @@
     "type": "image-input",
     "label": "Redemption image",
     "value": "https://cdn.streamelements.com/static/custom-event-list/redemption.svg",
+    "group": "Redemptions"
+  },
+  "redemptionBg": {
+    "type": "image-input",
+    "label": "Redemption background",
+    "value": null,
     "group": "Redemptions"
   },
   "host-include": {
@@ -711,6 +708,12 @@
     "value": "https://cdn.streamelements.com/static/custom-event-list/host.svg",
     "group": "Hosts"
   },
+  "hostBg": {
+    "type": "image-input",
+    "label": "Host background",
+    "value": null,
+    "group": "Hosts"
+  },
   "raid-include": {
     "type": "dropdown",
     "label": "Display raids:",
@@ -739,6 +742,12 @@
     "value": "https://cdn.streamelements.com/static/custom-event-list/raid.svg",
     "group": "Raids"
   },
+  "raidBg": {
+    "type": "image-input",
+    "label": "Raid background",
+    "value": null,
+    "group": "Raids"
+  },
   "subscriber-include": {
     "type": "dropdown",
     "label": "Display subscribers:",
@@ -763,6 +772,12 @@
     "type": "image-input",
     "label": "Subscriber image",
     "value": "https://cdn.streamelements.com/static/custom-event-list/sub.svg",
+    "group": "Subscribers"
+  },
+  "subBg": {
+    "type": "image-input",
+    "label": "Subscriber background",
+    "value": null,
     "group": "Subscribers"
   },
   "subAggregate": {
@@ -847,6 +862,12 @@
     "value": "https://cdn.streamelements.com/static/custom-event-list/tip.svg",
     "group": "Tips"
   },
+  "tipBg": {
+    "type": "image-input",
+    "label": "Tip background",
+    "value": null,
+    "group": "Tips"
+  },
   "cheer-include": {
     "type": "dropdown",
     "label": "Display cheers:",
@@ -873,6 +894,12 @@
     "type": "image-input",
     "label": "Cheer image",
     "value": "https://cdn.streamelements.com/static/custom-event-list/bits.svg",
+    "group": "Cheers"
+  },
+  "cheerBg": {
+    "type": "image-input",
+    "label": "Cheer background",
+    "value": null,
     "group": "Cheers"
   },
   "widgetName": {

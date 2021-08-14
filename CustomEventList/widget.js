@@ -183,7 +183,7 @@ const addEvent = (type, text, username, isHistorical) => {
     if (textOrder === "actionFirst") {
         element = `
     <div class="event-container animated ${showClass}" id="event-${totalEvents}">
-		<div class="backgroundsvg"></div>
+		<div class="backgroundsvg-${type}"></div>
         <div class="event-image event-${type} {imageType}"></div>
         <div class="username-container">${text}</div>
        <div class="details-container">${username}</div>
@@ -191,7 +191,7 @@ const addEvent = (type, text, username, isHistorical) => {
     } else {
         element = `
     <div class="event-container animated ${showClass}"  id="event-${totalEvents}">
-		<div class="backgroundsvg"></div>
+		<div class="backgroundsvg-${type}"></div>
         <div class="event-image event-${type} {imageType}"></div>
         <div class="username-container">${username}</div>
        <div class="details-container">${text}</div>
