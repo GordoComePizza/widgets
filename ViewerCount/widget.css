@@ -1,9 +1,0 @@
-@import url("//fonts.googleapis.com/css?family={{fontName}}");
-@import url("//cdn.givecloud.co/npm/odometer@0.4.8/themes/odometer-theme-{{theme}}.css");
-
-.odometer{
-    font-family: '{{fontName}}', sans-serif !important;
-    color:{{fontColor}} !important;
-    font-weight:{{fontWeight}} !important;
-    font-size:{{fontSize}}px !important;
-}
